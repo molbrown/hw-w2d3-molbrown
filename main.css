@@ -37,6 +37,11 @@ body {
     background-color: #C178CE;
     padding-top: 20px;
     height: 65px;
+    /* float: right; */
+}
+
+#equals {
+    width: 284px;
 }
 
 .break {

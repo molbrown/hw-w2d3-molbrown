@@ -72,6 +72,11 @@ decimal.addEventListener('click', function(){
 }
 })
 
+var modulo = calculator.querySelector('#modulo');
+modulo.addEventListener('click', function(){
+  document.querySelector('#display').value += '%';
+})
+
 var plus = calculator.querySelector('#plus');
 plus.addEventListener('click', function(){
   document.querySelector('#display').value += '+';
