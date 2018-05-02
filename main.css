@@ -1,0 +1,41 @@
+/* lighter purple: #E6C9EB */
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.square {
+    width: 70px;
+    height: 55px;
+    border: solid 0.5px white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+    color: white;
+    background-color: #9C27B0;
+    float:left;
+}
+
+#display {
+    width: 212px;
+    background-color: #E6C9EB;
+    color: #9C27B0;
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0;
+}
+
+.operator {
+    font-size: 35px;
+    background-color: #C178CE;
+    padding-top: 20px;
+    height: 65px;
+}
+
+.break {
+    clear: both;
+}
+
+
