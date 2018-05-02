@@ -65,7 +65,11 @@ zero.addEventListener('click', function(){
 
 var decimal = calculator.querySelector('#decimal');
 decimal.addEventListener('click', function(){
-  document.querySelector('#display').value += '.';
+    if (document.querySelector('#display').value === '') {
+        document.querySelector('#display').value = '0.';
+    } else {
+        document.querySelector('#display').value += '.';
+}
 })
 
 var plus = calculator.querySelector('#plus');
