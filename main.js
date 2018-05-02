@@ -90,8 +90,12 @@ equals.addEventListener('click', function(){
           document.querySelector('#display').value = math;
     }
    }
+    // catch(error) {
+    //     document.querySelector('#display').value = 'ERROR';
+    // }
+
     catch(error) {
-        document.querySelector('#display').value = 'ERROR';
+        document.querySelector('#display').value = '';
     }
     
   }
