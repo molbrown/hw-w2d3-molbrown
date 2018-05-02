@@ -84,9 +84,15 @@ clear.addEventListener('click', function(){
 
 var equals = calculator.querySelector('#equals');
 equals.addEventListener('click', function(){
-  var math = eval(document.querySelector('#display').value);
-    if (math !== undefined) {
-        document.querySelector('#display').value = math;
+    try{
+      var math = eval(document.querySelector('#display').value);
+        if (math !== undefined) {
+          document.querySelector('#display').value = math;
     }
+   }
+    catch(error) {
+        document.querySelector('#display').value = 'ERROR';
+    }
+    
   }
 )
