@@ -18,6 +18,10 @@ body {
     float:left;
 }
 
+.square:hover {
+    background-color: #C178CE;
+}
+
 #display {
     width: 182px;
     background-color: #E6C9EB;
